@@ -4,4 +4,4 @@ let when = ['before the class','right in time','when I finished','during my lunc
 
 let excuse = who[Math.floor(Math.random()*who.length)] + " " + what[Math.floor(Math.random()*what.length)] + " " + when[Math.floor(Math.random()*when.length)] ;
 
-document.write(excuse);
+document.querySelector("#excuse").innerHTML = excuse;
